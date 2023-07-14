@@ -1,9 +1,7 @@
 # VulnApp
-**The Vulnerable API** *(Based on OpenAPI 3)*
-![vulnapp](https://i.imgur.com/zR0quKf.jpg)
+**The Vulnerable API** *(Based on OpenAPI 3)* (Originally VAmPI)
 
-
-VulnApp is a vulnerable API made with Flask and it includes vulnerabilities from the OWASP top 10 vulnerabilities for APIs. It was created as I wanted a vulnerable API to evaluate the efficiency of tools used to detect security issues in APIs. It includes a switch on/off to allow the API to be vulnerable or not while testing. This allows to cover better the cases for false positives/negatives. VulnApp can also be used for learning/teaching purposes. You can find a bit more details about the vulnerabilities in [erev0s.com](https://erev0s.com/blog/vulnapp-vulnerable-api-security-testing/).
+VulnApp is a vulnerable API made with Flask and it includes vulnerabilities from the OWASP top 10 vulnerabilities for APIs. It was created as I wanted a vulnerable API to evaluate the efficiency of tools used to detect security issues in APIs. It includes a switch on/off to allow the API to be vulnerable or not while testing. This allows to cover better the cases for false positives/negatives. VulnApp can also be used for learning/teaching purposes.
 
 
 #### Features
@@ -53,9 +51,6 @@ To install all requirements simply run `pip3 install -r requirements.txt` and th
 
 Or if you prefer you can also run it through docker or docker compose.
 
- #### Run it through Docker
-
- - Available in [Dockerhub](https://hub.docker.com/r/erev0s/vulnapp)
 
 **Build with**
 ~~~~
